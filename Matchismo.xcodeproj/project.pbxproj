@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2E36CE22C37BD0008E10D4 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E36CD22C37BD0008E10D4 /* Card.m */; };
+		4B2E36D122C37CFD008E10D4 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E36D022C37CFD008E10D4 /* Deck.m */; };
+		4B2E36D422C37D40008E10D4 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E36D322C37D40008E10D4 /* PlayingCard.m */; };
+		4B2E370622C4EDFF008E10D4 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E370522C4EDFF008E10D4 /* PlayingCardDeck.m */; };
 		4B7DF4DB22C0DDFD00DB3F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DF4DA22C0DDFD00DB3F34 /* AppDelegate.m */; };
 		4B7DF4DE22C0DDFD00DB3F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DF4DD22C0DDFD00DB3F34 /* ViewController.m */; };
 		4B7DF4E122C0DDFD00DB3F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7DF4DF22C0DDFD00DB3F34 /* Main.storyboard */; };
@@ -16,6 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B2E36CC22C37BD0008E10D4 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		4B2E36CD22C37BD0008E10D4 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		4B2E36CF22C37CFD008E10D4 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		4B2E36D022C37CFD008E10D4 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		4B2E36D222C37D40008E10D4 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		4B2E36D322C37D40008E10D4 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		4B2E370422C4EDFF008E10D4 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		4B2E370522C4EDFF008E10D4 /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		4B7DF4D622C0DDFD00DB3F34 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7DF4D922C0DDFD00DB3F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B7DF4DA22C0DDFD00DB3F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +73,14 @@
 				4B7DF4D922C0DDFD00DB3F34 /* AppDelegate.h */,
 				4B7DF4DA22C0DDFD00DB3F34 /* AppDelegate.m */,
 				4B7DF4DC22C0DDFD00DB3F34 /* ViewController.h */,
+				4B2E36CC22C37BD0008E10D4 /* Card.h */,
+				4B2E36CD22C37BD0008E10D4 /* Card.m */,
+				4B2E36D222C37D40008E10D4 /* PlayingCard.h */,
+				4B2E36D322C37D40008E10D4 /* PlayingCard.m */,
+				4B2E370422C4EDFF008E10D4 /* PlayingCardDeck.h */,
+				4B2E370522C4EDFF008E10D4 /* PlayingCardDeck.m */,
+				4B2E36CF22C37CFD008E10D4 /* Deck.h */,
+				4B2E36D022C37CFD008E10D4 /* Deck.m */,
 				4B7DF4DD22C0DDFD00DB3F34 /* ViewController.m */,
 				4B7DF4DF22C0DDFD00DB3F34 /* Main.storyboard */,
 				4B7DF4E222C0DE0100DB3F34 /* Assets.xcassets */,
@@ -141,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2E36D422C37D40008E10D4 /* PlayingCard.m in Sources */,
+				4B2E36D122C37CFD008E10D4 /* Deck.m in Sources */,
 				4B7DF4DE22C0DDFD00DB3F34 /* ViewController.m in Sources */,
 				4B7DF4E922C0DE0100DB3F34 /* main.m in Sources */,
+				4B2E370622C4EDFF008E10D4 /* PlayingCardDeck.m in Sources */,
 				4B7DF4DB22C0DDFD00DB3F34 /* AppDelegate.m in Sources */,
+				4B2E36CE22C37BD0008E10D4 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
